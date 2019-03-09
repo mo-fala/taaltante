@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Mali, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+.nav-bar, .cover {
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    background: rgb(10, 196, 109);
+    margin: auto;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 4px 0;
+    margin: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(130, 130, 130);
+}
+
+ul a:hover {
+    border-bottom: 3px solid rgb(90, 90, 90);
+}
+
+.cover {
+    background: url(https://res.cloudinary.com/konijn/image/upload/v1551557155/book_IJssel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    width: 100vw;
+    border-bottom: 8px solid rgba(150, 150, 150, 0.75);
+    }
+
+h1 {
+    text-align: center;
+    margin: 2% 0;
+    font-family: "Dancing Script", georgia, times;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: rgb(30, 216, 129);
+    text-shadow: 2px 2px 5px rgb(160, 160, 130);
+    }
+
+.tante {
+    color: rgb(50, 160, 240);
+    }
+
+h2 {
+    text-align: center;
+    margin: 4% 0 3%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+    text-shadow: 1px 1px 10px rgb(180, 180, 180);
+}
+
+.over-taaltante p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    margin: 1% 25%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px 30px;
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+.thumbnail-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px rgb(100, 100, 100);
+}
+
+.thumbnail-img:hover {
+    transform: scale(1.01);
+}
+
+article {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+article img {
+    height: auto;
+    width: 450px;
+    padding: 1%;
+    border: 10px solid rgba(50, 50, 50, 0.3);
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgb(150, 150, 150);
+}
+
+article img:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background: rgba(100, 255, 109, 0.4);
+}
+
+.contact p {
+    font-size: 1.3rem;
+    padding: 2% 0 0 1.5%;
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+}
+
+.contact address {
+    text-align: justify;
+    font-size: 0.9rem;
+    padding: 2%;
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .over-taaltante p {
+        margin: 2% 10%;
+    }
+    .container {
+        margin: 2% 5%;
+    }
+    article img {
+        height: auto;
+        width: 420px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .over-taaltante p {
+        margin: 2% 5%;
+    }
+    .container {
+        margin: 2% 5%;
+    }
+    article img {
+        height: auto;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    ul {
+        height: 20vh;
+    }
+    .container {
+        margin: 2% 2%;
+    }
+    article img {
+        height: auto;
+        width: 250px;
+    }
+}
