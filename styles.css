@@ -1,0 +1,107 @@
+ * {
+   padding: 0;
+   margin: 0;
+   font-size: 20px;
+}
+
+.content__wrapper {
+    background-color: #468d69;
+}
+
+.header__wrapper {
+    background-color: #468d69;
+    padding-top: 17px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 15px;
+    color: rgb(253, 255, 226);
+}
+
+.nav__list:hover {
+    cursor: pointer;
+}
+
+.fas {
+    font-size: 1.2rem;
+}
+
+.page__header {
+    padding-left: 42px;
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-size: 2.2rem;
+    text-shadow: #fdde79ce 2px 2px 12px;
+}
+
+.contact {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
+}
+
+.contact:hover {
+    font-weight: 600;
+}
+
+.page__intro {
+    display: block;
+    padding: 70px 250px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(252, 236, 236);
+}
+
+.intro__header {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.intro__message {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.verse__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.verse__header {
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-family: 'Fresca', sans-serif;
+    color: rgb(253, 255, 236);
+    font-weight: 500;
+}
+
+.verse__block {
+    padding: 12px;
+    font-family: 'Fresca', sans-serif;
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 27px;
+    border: dotted 1px #fff;
+}
+
+.footer__wrapper {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+}
+
+.copyright {
+    background-color: #cdffbe;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7rem;
+    color: rgb(92, 91, 91);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

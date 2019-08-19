@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Website Layout</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <title>Lelies in het veld</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7ac729c54.js"></script>
 </head>
-<header>
-    <nav class="nav-bar">
-        <ul>
-            <li><a href="#over" id="nav-over">Over TaalTante</a></li>
-            <li><a href="#projecten" id="nav-projecten">Mijn Projecten</a></li>
-            <li><a href="#blog" id="nav-blog">Blog</a></li>
-            <li><a href="#contact" id="nav-contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
 <body>
-    <main>
-        <div class="cover"></div>
-        <div class="over-taaltante">
-            <h1 id="over">Taal<span class="tante">Tante</span></h1>
-            <p>Mijn leven draait om taal. Ik deed een talenstudie (Chinees), werkte al ruim 5 jaar als freelance
-                schrijver en ben vervolgens in de wereld van programmeertalen gedoken. Je kunt mij met recht een
-                'taaltante' noemen.</p>
-            <p>Onder diezelfde naam, TaalTante, verzorg ik nu graag (web)teksten, vertalingen en
-                meer voor jou. Kijk graag verder op mijn website om te ontdekken wat ik voor je kan betekenen.</p>
+    <main class="page__wrapper">
+        <div class="header__wrapper">
+            <header>
+                <div class="nav__list">
+                <div id="toggle__button"><a><i class="fas fa-bars"></i></a></div>
+                <div><a><h1 class="page__header" id="page__header">Lelies in het veld</h1></a></div>
+                <div><a><p class="contact">Contact</p></a></div>
+                </div>
+            </header>
         </div>
-        <h2>Mijn projecten</h2>
-        <div class="container" id="projecten">
-            <div class="project1"><a href="https://mo-fala.github.io/" target="_blank"><img class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551867170/Taaltante-Thumbnail.png"
-                        alt="landing page"></a></div>
-            <div class="project2"><a href="https://codepen.io/mo-fala/full/aPGmww" target="_blank"><img
-                        class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551868600/Tribute-Page-Thumbnail.png"
-                        alt="tribute page"></a></div>
-            <div class="project3"><a href="https://codepen.io/mo-fala/full/zyLxzv" target="_blank"><img
-                        class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551868952/Form-Page-Thumbnail.png"
-                        alt="form page"></a></div>
-            <div class="project4"><a href="https://codepen.io/mo-fala/full/dwgpXP" target="_blank"><img
-                        class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551869348/Blog-Thumbnail.png"
-                        alt="blog page"></a>
+        <div class="content__wrapper">
+            <div class="page__intro">
+                <h2 class="intro__header">Shalom!</h2>
+                <p class="intro__message">
+                    Welkom op mijn pagina 'Lelies in het veld'. Hier vind je artikelen over uiteenlopende onderwerpen
+                    die ik geschreven heb met het oog op mijn leven als een kind van Elohim - de Allerhoogste Heer.
+                    Ik ben met deze website begonnen toen ik een diep verlangen voelde om mijn ervaringen met anderen
+                    te delen. Ik geloof dat Christenen, kinderen van Elohim, als 'lelies in het veld' zijn. Zoals je
+                    in mijn blogartikelen ook kunt lezen, staan lelies in de Bijbel onder andere symbool voor de bruid - 
+                    volgelingen - van Yeshua. De lelie groeit in Israel vaak in valleien, als een zeldzaam mooie en pure
+                    bloem. Zelfs in een donker dal kunnen lelies nog groeien en bloeien.   
+                </p>
+                <p class="intro__message">
+                    De symboliek van de lelie in het veld/dal raakte mij zeer toen ik voor het eerst erover las. Als
+                    lichaam van Yeshua zijn wij als een pure, witte lelie in het dal. Zo kunnen wij als Christenen als een
+                    lichtpunt in de duisternis zijn. Veel mensen leven zonder Yeshua helaas in duisternis, maar wij kunnen
+                    licht in hun leven brengen door met ons pure leven te schijnen in het donker.
+                </p>
             </div>
-            <div class="project5"><a href="https://codepen.io/mo-fala/full/KbLzBv" target="_blank"><img
-                        class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551870143/Doc-Page-Thumbnail.png"
-                        alt="documentation page"></a></div>
-            <div class="project6"><a href="https://codepen.io/mo-fala/full/PVoYyx" target="_blank"><img
-                        class="thumbnail-img"
-                        src="https://res.cloudinary.com/konijn/image/upload/v1551870820/Landing-Page-Thumbnail.png"
-                        alt="landing page"></a></div>
+            <div class="verse__wrapper">
+                <h3 class="verse__header">Psalm 23: De Heer is mijn herder</h3>
+                <p class="verse__block">
+                    <em>psalm van David.</em><br>
+                    De HEERE is mijn Herder, niets zal mij ontbreken.<br>
+                    Hij doet mij nederliggen in grazige weiden;<br>
+                    Hij voert mij zachtjes aan stille wateren.<br>
+                    Hij verkwikt mijn ziel;<br>
+                    Hij leidt mij in het spoor der gerechtigheid, om Zijns Naams wil.<br>
+                    Ook al ga ik door een dal der schaduw des doods,<br>
+                    ik zal geen kwaad vrezen, want Gij zijt met mij;<br>
+                    Uw stok en Uw staf, die troosten mij.<br>
+                    Gij richt de tafel toe voor mijn aangezicht, tegenover mijn vijanden;<br>
+                    Gij zalft mijn hoofd met olie, mijn beker is overvloeiende.<br>
+                    Goedheid en genade zullen mij volgen al de dagen mijns levens;<br>
+                    en ik zal in het huis des HEEREN verblijven voor eeuwig.
+                </p>
+            </div>
         </div>
-        <article id="blog">
-            <h2>Mijn Blog</h2>
-            <a href="https://codepen.io/mo-fala/full/pGNBop" target="_blank"><img
-                    src="https://res.cloudinary.com/konijn/image/upload/v1551878553/My-Blog-Thumbnail.png"
-                    alt="my blog"></a>
-                </article>
+        <footer class="footer__wrapper">
+            <p class="copyright">&copy; Lelies in het veld 2019-<script>document.write(new Date().getFullYear())</script>
+            </p>
+        </footer>
     </main>
+    <script src="script.js"></script>
+    <noscript>Helaas, je browser ondersteunt JavaScript niet!</noscript>
 </body>
-<footer>
-    <div class="contact" id="contact">
-        <p>Neem graag contact met me op:</p>
-        <address>
-            Naam: Konijn<br>
-            Adres: Konijnenhok 9, 2938KE, Konijnenstad<br>
-            <a href="mailto:konijn@wortel.nl">E-mail: konijn@wortel.nl</a><br>
-            <a href="tel:+316-1111-11-11">Telefoon: +316-1111-11-11</a><br>
-        </address>
-    </div>
-</footer>
-
 </html>
